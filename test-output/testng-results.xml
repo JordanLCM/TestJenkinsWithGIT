@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+      <class name="com.main.SecondClass">
+        <test-method status="PASS" signature="testMaven1()[pri:0, instance:com.main.SecondClass@86be70a]" name="testMaven1" duration-ms="1" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven1 -->
+        <test-method status="PASS" signature="tm2()[pri:0, instance:com.main.SecondClass@86be70a]" name="tm2" duration-ms="1" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm2 -->
+        <test-method status="PASS" signature="tm3()[pri:0, instance:com.main.SecondClass@86be70a]" name="tm3" duration-ms="1" started-at="2022-01-23T17:50:09 UTC" depends-on-methods="com.main.FirstClassMaven.tm2" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm3 -->
+        <test-method status="PASS" signature="tm123()[pri:0, instance:com.main.SecondClass@86be70a]" name="tm123" duration-ms="0" started-at="2022-01-23T17:50:09 UTC" depends-on-methods="com.main.FirstClassMaven.tm2" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm123 -->
+      </class> <!-- com.main.SecondClass -->
+      <class name="com.main.FirstClassMaven">
+        <test-method status="PASS" signature="testMaven1()[pri:0, instance:com.main.FirstClassMaven@30a3107a]" name="testMaven1" duration-ms="6" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven1 -->
+        <test-method status="PASS" signature="tm2()[pri:0, instance:com.main.FirstClassMaven@30a3107a]" name="tm2" duration-ms="1" started-at="2022-01-23T17:50:09 UTC" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm2 -->
+        <test-method status="PASS" signature="tm3()[pri:0, instance:com.main.FirstClassMaven@30a3107a]" name="tm3" duration-ms="1" started-at="2022-01-23T17:50:09 UTC" depends-on-methods="com.main.FirstClassMaven.tm2" finished-at="2022-01-23T17:50:09 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm3 -->
+      </class> <!-- com.main.FirstClassMaven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
